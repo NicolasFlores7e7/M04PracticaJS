@@ -11,9 +11,25 @@
 
 <body>
     <h1>Adivina el número secreto</h1>
+
     <main class="mainContainer">
-        <div class="row" id="1">
-            <!-- <input type="text" maxlength="1" class="square"> -->
+        <div class="boxTopContainer">
+            <div class="topSquare">*</div>
+            <div class="topSquare">*</div>
+            <div class="topSquare">*</div>
+            <div class="topSquare">*</div>
+            <div class="topSquare">*</div>
+        </div>
+
+        <div class="textContainer">
+            <p>Escribe aquí un numero</p>
+            <input class="focus" type="text" placeholder="01234" maxlength="5">
+            <hr width="90%" color="skyblue">
+            <button onclick="saveInput()"> Comprobar</button>
+        </div>
+        <div class="outputMsg">
+            <p>Primer intento SUERTE!</p>
+        </div>
         </div>
     </main>
     <div class="result">
