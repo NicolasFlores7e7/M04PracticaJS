@@ -85,8 +85,15 @@ h1{
     color: white;
     margin-left: 5px;
 }
+.rowsContainer{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+}
 .row{
     display: flex;
+    flex-direction: row;
     gap: 10px;
     margin-bottom: 10px;
 }

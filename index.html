@@ -23,19 +23,22 @@
 
         <div class="textContainer">
             <p>Escribe aquí un numero</p>
-            <input class="focus" type="text" placeholder="01234" maxlength="5">
+            <input id="userInput" type="input" placeholder="01234" maxlength="5" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;">
             <hr width="90%" color="skyblue">
-            <button onclick="saveInput()"> Comprobar</button>
+            <button onclick="check()"> Comprobar</button>
         </div>
         <div class="outputMsg">
             <p>Primer intento SUERTE!</p>
         </div>
+        <div class="rowsContainer">
+            <div class="row"></div>
         </div>
+        
     </main>
     <div class="result">
         <!-- <p>You WIN!</p>
         <button class="button">Restart</button> -->
     </div>
-    <script src="java.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
