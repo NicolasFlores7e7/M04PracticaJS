@@ -81,6 +81,7 @@ function trysCalculator(){                                                      
         break;
         case 5:
         document.getElementById("outputMessage").innerHTML = "Has perdido"
+        changeTopSquares();
         reset();
         break;
 
