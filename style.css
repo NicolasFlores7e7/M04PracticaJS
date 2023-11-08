@@ -41,17 +41,21 @@ h1{
     align-self: center;
     margin-top: 10px;
     text-align: center;
-    font-size: x-large;
+    font-size: xx-large;
     border: 0;
     margin-left: 5px;
     margin-bottom: 10px;
     font-size: larger;
     font-weight: bolder;
 }
+.textContainer input:focus{
+    outline: 0 none;
+}
 .textContainer button{
     width: 90%;
     height: 50px;
     align-self: center;
+    font-size: xx-large;
     margin-bottom: 10px;
     background-color: skyblue;
     border: 0;
